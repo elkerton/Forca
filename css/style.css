@@ -1,0 +1,264 @@
+#jogoDaForca,#completo {
+  background-color: rgba(191, 207, 220, 0.95);
+  margin-top: -20px;
+  margin-bottom: none;
+  height: 800px;
+  width: 100%;
+}
+
+
+#ImagemCabecalho {
+  width: 80px;
+  border-radius: 34%;
+  position: absolute;
+  left: 455px;
+}
+
+#cabecalho,#completo {
+  font-family: "Courier New";
+  position: relative;
+  top: 17px;
+  font-weight: bold;
+}
+
+#agradecer{
+  
+  position: relative;
+  left : 540px;
+  top:80px;
+  
+  
+}
+
+.a{
+  
+  position:relative;
+  left : 590px;
+  top : 70px;
+  
+}
+
+button#confirm,
+button#verifica {
+  color: white;
+  background-color: green;
+  font-size: 18px;
+  padding: 17px 17px;
+  border-radius: 5px;
+  border: none;
+  font-family: "arial";
+  font-weight: bolder;
+}
+
+button#verifica {
+  position: relative;
+  left: 30px;
+}
+
+button#confirm:hover,
+button#verifica:hover,
+button#resposta:hover,
+button#reload:hover {
+  background-color: black;
+  box-shadow: 2px 2px black;
+  transition-duration: 0.6s;
+}
+
+button#confirm:active,
+button#verifica:active,
+button#resposta:active,
+button#reload:active {
+  background-color: #4F4F4F;
+  box-shadow: 5px 5px black;
+  transition-duration: 0.1s;
+}
+
+button#resposta {
+  color: white;
+  background-color: #8B0000;
+  font-size: 18px;
+  padding: 17px 17px;
+  border-radius: 5px;
+  border: none;
+  font-family: "arial";
+  font-weight: bolder;
+}
+
+button#reload {
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  padding: 17px 17px;
+  border-radius: 5px;
+  border: none;
+  font-family: "arial";
+  font-weight: bolder;
+}
+
+p#forca {
+  font-family: "Courier New";
+  font-size: 50px;
+  position: relative;
+  top: 160px;
+  left: 570px;
+}
+
+#palavraPrincipal,
+#hint,
+#letras {
+  position: relative;
+  font-size: 20px;
+}
+
+#txt1,
+#txt2,
+#input2 {
+  font-family: "Courier New";
+  position: relative;
+  top: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#erro{
+    display: inline;
+    position: relative;
+    top: 160px;
+}
+
+#input2 {
+  font-size: 40px;
+  position: relative;
+  bottom : 20px;
+}
+
+#introducao {
+  font-family: "Courier New";
+  font-size: 30px;
+  padding: 5px;
+  position: relative;
+  left: 563px;
+  top: 150px;
+}
+
+#dica {
+  font-family: "Courier New";
+  font-size: 70px;
+  padding: 5px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 30px;
+  left: 710px;
+}
+
+#input {
+  position: relative;
+  bottom: 37px;
+}
+
+#input3 {
+  position: relative;
+  bottom: 50px;
+}
+
+#inputs {
+  position: relative;
+  bottom: 505px;
+
+}
+
+#jogo {
+  text-align: center;
+}
+
+#titulo {
+  text-align: center;
+}
+
+p#cabeca,#corpo,#bracoD,#bracoE,#pernaD,#pernaE{
+
+width :2px;
+height: 2px;
+
+
+
+}
+#ForcaIMG{
+
+  width: 150px;
+    position: relative;
+    bottom: 80px;
+    display: inline;
+
+
+}
+
+
+#cabecaIMG{
+
+    position: relative;
+    bottom: 326px;
+    width: 150px;
+    display: inline;
+
+
+
+
+
+}
+
+#corpoIMG{
+
+position: relative;
+    width: 150px;
+    bottom: 345px;
+
+}
+
+#bracoDIMG{
+
+position: relative;
+    width: 150px;
+    bottom: 366px;
+
+}
+
+#bracoEIMG{
+
+position: relative;
+    width: 150px;
+    bottom: 383px;
+      
+
+
+}
+
+#pernaDIMG{
+
+
+position: relative;
+    width: 150px;
+    bottom: 401px;
+    right: 2px;
+
+
+}
+
+#pernaEIMG{
+
+position: relative;
+    width: 150px;
+    bottom: 422px;
+
+
+
+}
+
+#absolute{
+
+position: relative;
+bottom: 154px;
+
+
+}
+
